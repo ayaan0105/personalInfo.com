@@ -1,0 +1,219 @@
+.body{
+
+    background-color: #ebebeb;
+    margin-top: -100px;
+    position: relative;
+    top: -100px;
+    z-index: 4;
+}
+body,html{
+    margin-top: 0px ;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #ebebeb;
+    /* margin-bottom: 0px; */
+}
+.page1 img{
+    /* background-image: url(../images/wallpaperflare-cropped.jfif); */
+    width: 100%;
+    margin-top: 0px;
+    height: 115vh;
+    position:relative;
+    top: -242px;
+}
+.name{
+    width: 500px;
+    height: 180px;
+    /* background-color: blueviolet; */
+    position: relative;
+    top: 20px;
+    left: 620px;
+    z-index: 1;
+    text-align: center;
+    font-size: 46px;
+    border-right: 5px solid #383838;
+    color: #383838;
+}
+.name h1{
+    font-family: 'Sacramento', cursive;
+}
+.name p{
+    font-family: 'Lobster', cursive;
+    position: relative;
+    top: -70px;
+}
+.name img{
+    width:64px;
+    height: 64px;
+    position: relative;
+    z-index: 3;
+    top: -180px;
+    left: -180px;
+}
+.ico img{
+    width: 58px;
+    height: 58px;
+    position: relative;
+    top: -454px;
+    left: -835px;
+    z-index: 7;
+}
+
+.imag{
+    background-color: #178D75;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    margin-top: -200px;
+    overflow: hidden;
+    /* margin-left: 634px;
+    padding-top: 100px ;
+    width: 50%;
+    margin-top: -300px; */
+}
+.imag img{
+    position: relative;
+    left: 21%;
+    z-index: 5;
+   
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: #66bfbf;
+    font-family: cursive;
+}
+.para{
+    font-size: 18px;
+    width: 40%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-family:cursive;
+    line-height: 2em;
+    border-left: 4px dashed gray;
+}
+hr{
+    margin-bottom: 70px;
+    margin-top: 70px;
+    border: dotted 10px #c2cece;
+    border-bottom: none;
+    width: 4%;
+}
+#giph{
+    width: 230px;
+    margin-top: -31px;
+    height: 200px;
+
+}
+.giph{
+    margin-top: 100px;
+    margin-left: 360px;
+    float: left;
+}
+.skills{
+    float: right;
+    margin-top: 70px;
+    margin-right: 100px;
+    width: 50%;
+}
+.skills h3{
+    color: #66bfbf;
+    font-size: 25px;
+}
+.skills p{
+    padding-right: 10px;
+    font-size: 18px;
+    width: 50%;
+    font-family: cursive;
+    line-height: 2em;
+    border-right: 4px dashed gray;
+}
+.line{
+    margin-top: 370px;
+    margin-bottom: 70px;
+    margin-left: 700px;
+}
+.last p{
+    float: left;
+    padding-left: 20px;
+    margin-left: 420px;
+        font-size: 18px;
+        width: 25%;
+        font-family: cursive;
+        line-height: 2em;
+        border-left: 4px dashed gray;
+
+}
+.hline{
+    width: 50%;
+    position: relative;
+    z-index: 6;
+    top: -400px;
+    left: 500px;
+}
+#tele{
+    border-radius: 50%;
+    margin-left: 60px;
+    position: relative;
+    top: -5px;
+}
+input[type="button"]{
+    margin-left: 45%;
+    /* margin-top: 10px; */
+    padding: 5px;
+    font-size: 25px;
+    font-family: cursive;
+    background: linear-gradient(#4EC2DE, #49CDB7);
+    /* background-color: #4BC9C4; */
+    border: none;
+    border-radius: 15px;
+    color: azure;
+}
+input[type="button"]:hover{
+    
+    color: hotpink;
+}
+footer{
+    background-color: #66bfbf;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+footer a{
+    font-size: 1.3em;
+    padding-right: 27px;
+    padding-left: 27px;
+    text-decoration: none;
+    font-family:monospace;
+    font-weight: bold;
+    color: #177575;
+    border-right: 2px solid #177575;
+}
+footer a:nth-child(1):hover{
+    color: whitesmoke;
+}
+footer a:nth-child(2):hover{
+    color:tomato;
+}
+footer a:nth-child(3):hover{
+    color: rgb(59, 59, 251);
+}
+footer a:nth-child(3){
+    border-right: none;
+}
+footer p{
+    color: whitesmoke;
+    padding-top: 10px;
+}
+.skills a{
+    text-decoration: none;
+    color: #4BC8C8;
+    font-size: 1.2rem;
+}
+.skills a:hover{
+    color: #177575;
+}
